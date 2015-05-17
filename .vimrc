@@ -1,3 +1,7 @@
+" Set 'nocompatible' to ward off unexpected things that your distro might
+" have made, as well as sanely reset options when re-sourcing .vimrc
+set nocompatible
+
 " enable syntax highlighting
 syntax enable
 
@@ -24,3 +28,6 @@ set showmatch
 
 " enable all Python syntax highlighting features
 let python_highlight_all = 1
+
+" Enable use of the mouse for all modes
+set mouse=a
