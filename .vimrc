@@ -5,6 +5,9 @@ set nocompatible
 " enable syntax highlighting
 syntax enable
 
+" enable search highlights
+set hlsearch
+
 " show line numbers
 set number
 
