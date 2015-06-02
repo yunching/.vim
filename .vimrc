@@ -35,6 +35,3 @@ let python_highlight_all = 1
 " Enable use of the mouse for all modes
 set mouse=a
 
-" Highlight text overflow
-highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-match OverLength /\%81v.\+/
